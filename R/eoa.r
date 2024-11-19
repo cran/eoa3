@@ -1,7 +1,7 @@
 #' @importFrom stats dbinom pbinom rbeta rexp rlnorm rnorm rweibull qbeta
 #'  quantile sd update var
 #' 
-#' @title Evidence of Absense
+#' @title Evidence of Absence
 #'
 #' @description This package is designed to analyze searcher efficiency,
 #'  carcass persistence, search schedule, and carcass observation data for
@@ -27,7 +27,7 @@
 #'  \describe{
 #'    \item{\code{\link{sim_pk0}, \link{sim_cp0}}}{simulate estimated
 #'      \code{SE} and \code{CP} parameters}
-#'    \item{\code{\link{ppersist}}}{calculate probability that a carcass that arrives
+#'    \item{\code{GenEst::ppersist}}{calculate probability that a carcass that arrives
 #'      at an (unknown) uniform random time in an interval persists until a later,
 #'      specified time. This is the generalized \eqn{r} statistic for a given
 #'      persistence distribution, arrival interval width, and search time.}
